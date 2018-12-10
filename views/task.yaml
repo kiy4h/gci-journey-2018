@@ -1,5 +1,5 @@
 path:
-  template: /tasks/{{ task.pk }}
+  template: /{{ task.pk }}
   for-each:
     task: session.query(Task).all()
 template: task
