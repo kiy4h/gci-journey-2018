@@ -2,4 +2,4 @@ path: /tasks/
 template: tasks.html.jinja2
 context:
   dynamic:
-    tasks: session.query(Task).all()
+    tasks: session.query(Task).order_by(Task.task_num.asc()).all()
