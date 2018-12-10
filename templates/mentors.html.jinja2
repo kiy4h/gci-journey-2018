@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+Mentors who helped me
+{% endblock %}
+
+{% block white_bg %}
+<div class="contents">
+  <table>
+    <tr>
+      <th>Github Account</th>
+      <th>Organization</th>
+    </tr>
+
+  {% for mtr in mentors %}
+    <tr>
+      <td><a href="https://github.com/{{ mtr.username }}">{{ mtr.username }}</a></th>
+      <td>
+        <a href="{{ mtr.organization.link }}">{{ mtr.organization.name }}</a>
+      </td>
+    </tr>
+  {% endfor %}{# for mtr in mentor #}
+  </table>
+</div>
+{% endblock %}

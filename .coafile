@@ -1,0 +1,11 @@
+[css]
+bears = CSSLintBear
+files = **.css
+
+[yaml]
+bears = YAMLLintBear
+files = **.yml
+
+[jinja2]
+bears = Jinja2Bear
+files = **.jinja2

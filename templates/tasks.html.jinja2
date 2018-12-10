@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+Tasks I solved
+{% endblock %}
+
+{% block white_bg %}
+<div class="contents">
+  <table>
+    <tr>
+      <th style="width: 5%">id</th>
+      <th style="width: 30%">Title</th>
+      <th style="width: 10%">Difficulty</th>
+      <th style="width: 10%">Repository</th>
+      <th style="width: 10%">Pull Request</th>
+      <th style="width: 10%">Issue</th>
+      <th>Mentors</th>
+    </tr>
+
+  {% for task in tasks %}
+    <tr>
+      <td style="text-align: center">{{ task.task_num }}</td>
+      
+      <td><a href="{{ task.pk }}">{{ task.title }}</a></td>
+      
+      <td>
+        <div class="difficulty" style="background-color: {{ task.difficulty.color }}">
+        {{ task.difficulty.name }}
+        </div>
+      </td>
+      
+      <td style="text-align: center">
+        {% if task.repository %}
+        <a href="{{ task.repository.link }}">{{ task.repository.name }}</a>
+        {% else %}
+        <i style="color: #999">No repository</i>
+        {% endif %}{# if task.repository #}
+      </td>
+      
+      <td style="text-align: center">
+        {% if task.pr %}
+        <a href="{{ task.pr.link }}">{{ task.repository.name }}#{{ task.pr.id }}</a>
+        {% else %}
+        <i style="color: #999">No pull request</i>
+        {% endif %}{# if task.pr #}
+      </td>
+      
+      <td style="text-align: center">
+        {% if task.issue %}
+        <a href="{{ task.issue.link }}">{{ task.repository.name }}#{{ task.issue.id }}</a>
+        {% else %}
+        <i style="color: #999">No issue</i>
+        {% endif %}{# if task.issue #}
+      </td>
+      
+      <td>
+        {% for item in task.mentors %}
+        <div class="mentors">
+          <a href="https://github.com/{{ item.username }}">{{ item.username }}</a>
+        </div>
+        {% endfor %}{# for item in task.mentors #}
+      </td>
+    </tr>
+  {% endfor %}{# for mtr in mentor #}
+  </table>
+</div>
+{% endblock %}

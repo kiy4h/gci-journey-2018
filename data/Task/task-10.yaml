@@ -1,0 +1,9 @@
+title: "coAST: Add a new language definition *not* supported by coala"
+task_num: 10
+difficulty: low
+time_taken: "0 days, 5 hours, 59 minutes"
+repository: coast
+pr: coast_47
+mentors:
+  - jayvdb
+organization: coala

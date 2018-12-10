@@ -1,0 +1,5 @@
+path: /mentors/
+template: mentors.html.jinja2
+context:
+  dynamic:
+    mentors: session.query(Mentor).all()

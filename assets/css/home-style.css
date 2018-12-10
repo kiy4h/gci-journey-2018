@@ -1,0 +1,10 @@
+.titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contents {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

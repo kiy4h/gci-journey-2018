@@ -1,0 +1,12 @@
+title: "coala: Issue #5825: Add language definition for Verilog"
+task_num: 11
+difficulty: medium
+time_taken: "0 days, 11 hours, 23 minutes"
+repository: coala
+pr: coala_5886
+issue: coala_5825
+mentors:
+  - jayvdb
+  - pareksha
+  - subhaminion
+organization: coala

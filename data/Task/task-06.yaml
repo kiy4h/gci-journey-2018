@@ -1,0 +1,11 @@
+title: "emacs: Issue #21: Add .editorconfig"
+task_num: 6
+difficulty: low
+time_taken: "0 days, 17 hours, 23 minutes"
+repository: coala-emacs
+pr: coala-emacs_29
+issue: coala-emacs_21
+mentors:
+  - jayvdb
+  - ksdme
+organization: coala

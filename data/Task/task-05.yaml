@@ -1,0 +1,10 @@
+title: "It's moban repo sync time!"
+task_num: 5
+difficulty: low
+time_taken: "0 days, 3 hours, 29 minutes"
+repository: coala-quickstart
+pr: coala-quickstart_325
+mentors:
+  - jayvdb
+  - ksdme
+organization: coala

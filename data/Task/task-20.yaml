@@ -1,0 +1,10 @@
+title: "utils: Issue #80: Correction in doc string sentence"
+task_num: 20
+difficulty: newcomer
+time_taken: "0 days, 4 hours, 26 minutes"
+repository: coala-utils
+pr: coala-utils_97
+issue: coala-utils_80
+mentors:
+  - jayvdb
+organization: coala

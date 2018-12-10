@@ -1,0 +1,5 @@
+path: /tasks/
+template: tasks.html.jinja2
+context:
+  dynamic:
+    tasks: session.query(Task).all()

@@ -1,0 +1,10 @@
+title: "coala: Issue #558: No backslash line continuation..."
+task_num: 19
+difficulty: low
+time_taken: "2 days, 21 hours, 58 minutes"
+repository: coala
+pr: coala_5908
+issue: coala_558
+mentors:
+  - jayvdb
+organization: coala

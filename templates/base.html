@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{{ site_title }}{% endblock %} - Kiy4h</title>
+    <link rel="stylesheet" href="../assets/css/blog-style.css" type="text/css">
+    {% block head %}
+    <link rel="stylesheet" href="../assets/css/data-style.css" type="text/css">
+    {% endblock %}
+  </head>
+
+  <body>
+    <div class="topnav">
+      <a href="/">Home</a>
+      <a href="#tasks">Tasks</a>
+      <a href="/mentors">Mentors</a>
+      <a href="#repositories">Repositories</a>
+    </div>
+
+    <div class="invis">
+      <div class="white_bg">
+        <div class="titles">
+          <div class="page_title" style="font-size: 40px">
+            {% block page_title %}{% endblock %}
+          </div>
+          {% block titles %}{% endblock %}
+        </div>
+        <hr>
+        <div class="emptyspace">
+        {% block white_bg %}{% endblock %}
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="find-me">
+        <a href="https://github.com/Kiy4h"><img src="../assets/png/github-logo-small.png">Kiy4h</a>
+        <a href="https://gitlab.com/Kiy4h"><img src="../assets/png/gitlab-logo-small.png">Kiy4h</a>
+      </div>
+      Copyright © Kiy4h 2018
+    </div>
+  </body>
+</html>

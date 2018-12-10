@@ -1,0 +1,8 @@
+path:
+  template: /tasks/{{ task.pk }}
+  for-each:
+    task: session.query(Task).all()
+template: task
+context:
+  dynamic:
+    task: session.query(Task).all()

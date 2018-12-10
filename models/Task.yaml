@@ -1,0 +1,18 @@
+# Title always exist
+title: String
+# n-th task I've finished
+task_num: Integer
+# show the name
+difficulty: TaskDifficulty
+# time taken from when I claimed the task to when the task got approved
+# time format: "n day(s), n hour(s), 1 minute(s)"
+time_taken: String
+# Link to the repo (may not exist)
+repository: Repository
+# Link to the PR (may not exist)
+pr: PullRequest
+# Link to the issue (may not exist)
+issue: Issue
+# Mentors who helped me in the task
+mentors: Mentor[]
+organization: Organization

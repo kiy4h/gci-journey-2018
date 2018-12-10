@@ -1,0 +1,11 @@
+title: "artwork: Issue #51: SVG rendering issue at artwork/popup_display/coala_stand_popup_display_horizontal.svg"
+task_num: 15
+difficulty: low
+time_taken: "0 days, 18 hours, 57 minutes"
+repository: artwork
+pr: artwork_68
+issue: artwork_51
+mentors:
+  - sangamcse
+  - srivama
+organization: coala

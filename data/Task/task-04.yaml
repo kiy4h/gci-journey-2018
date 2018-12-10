@@ -1,0 +1,9 @@
+title: "coAST: Add a new language definition, from coalib"
+task_num: 4
+difficulty: medium
+time_taken: "0 days, 1 hour, 54 minutes"
+repository: coast
+pr: coast_37
+mentors:
+  - jayvdb
+organization: coala

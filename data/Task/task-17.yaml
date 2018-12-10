@@ -1,0 +1,11 @@
+title: "coAST: Add a new language definition which is not in coalib languages but supported by a bear"
+task_num: 17
+difficulty: low
+time_taken: "7 days, 22 hours, 36 minutes"
+repository: coast
+pr: coast_62
+mentors:
+  - ayan-b
+  - jayvdb
+  - man-jain
+organization: coala

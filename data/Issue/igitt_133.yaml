@@ -1,0 +1,3 @@
+title: "Repository.py: Change docstring in `issues` property to express that only open issues are being returned"
+link: "https://gitlab.com/gitmate/open-source/IGitt/issues/133"
+id: 133

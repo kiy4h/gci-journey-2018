@@ -1,0 +1,10 @@
+title: "coAST: Add datatypes to a language definition"
+task_num: 9
+difficulty: low
+time_taken: "0 days, 23 hours, 5 minutes"
+repository: coast
+pr: coast_45
+mentors:
+  - jayvdb
+  - li-boxuan
+organization: coala

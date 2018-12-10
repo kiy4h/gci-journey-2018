@@ -1,0 +1,11 @@
+title: "igitt: Issue #133: Repository.py: Change docstring in `issues` property to express that only open issues are being returned"
+task_num: 2
+difficulty: low
+time_taken: "0 days, 23 hours, 4 minutes"
+repository: igitt
+pr: igitt_263
+issue: igitt_133
+mentors:
+  - jayvdb
+  - vamshi99
+organization: coala

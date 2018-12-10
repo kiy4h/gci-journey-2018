@@ -1,0 +1,10 @@
+title: "Add .editorconfig to moban sync"
+task_num: 7
+difficulty: low
+time_taken: "0 days, 5 hours, 47 minutes"
+repository: coala-quickstart
+pr: coala-quickstart_327
+issue: coala-quickstart_323
+mentors:
+  - jayvdb
+organization: coala

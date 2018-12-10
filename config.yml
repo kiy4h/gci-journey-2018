@@ -1,0 +1,5 @@
+project-name: My GCI Journey Blog
+base-path: /
+context:
+  static:
+    site_title: My GCI Journey

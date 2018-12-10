@@ -1,0 +1,3 @@
+title: "Support Windows by using `setuptools` in `setup.py` instead of `distutils`"
+link: "https://github.com/myint/cppclean/issues/120"
+id: 120

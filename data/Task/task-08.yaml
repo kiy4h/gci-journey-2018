@@ -1,0 +1,11 @@
+title: "coala: Issue #5875: Add .editorconfig to moban sync"
+task_num: 8
+difficulty: low
+time_taken: "0 days, 23 hours, 5 minutes"
+repository: coala
+pr: coala_5881
+issue: coala_5875
+mentors:
+  - jayvdb
+  - prajwalm2212
+organization: coala

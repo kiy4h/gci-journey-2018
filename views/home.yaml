@@ -1,0 +1,5 @@
+path: /
+template: home.html.jinja2
+context:
+  dynamic:
+    textsection: session.query(TextSection).order_by(TextSection.order.asc()).all()

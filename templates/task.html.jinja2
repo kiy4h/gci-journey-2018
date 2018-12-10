@@ -1,0 +1,78 @@
+{% import 'macros.jinja2' as m %}
+{% extends "base.html" %}
+
+{% block page_title %}
+Task Number {{ task.task_num }}
+{% endblock %}
+
+{% block white_bg %}
+<div class="contents">
+  <table>
+    <tr>
+      <td>Title</td>
+      <td>{{ task.title }}</td>
+    </tr>
+  
+    <tr>
+      <td>Organization</td>
+      <td>
+        <a href="{{ task.organization.link }}">{{ task.organization.name }}</a>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Task Difficulty</td>
+      <td>
+        <div class="difficulty" style="background-color: {{ task.difficulty.color }}">
+        {{ task.difficulty.name }}
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Time Taken</td>
+      <td>
+        {{ task.time_taken }}
+      </td>
+    </tr>
+
+    {% if task.repository %}
+    <tr>
+      <td>Repository</td>
+      <td>
+        <a href="{{ task.repository.link }}">{{ task.repository.name }}</a>
+      </td>
+    </tr>
+    {% endif %}{# if task.repository #}
+
+    {% if task.pr %}
+    <tr>
+      <td>Pull Request</td>
+      <td>
+        <a href="{{ task.pr.link }}">{{ task.repository.name }}#{{ task.pr.id }}</a>
+      </td>
+    </tr>
+    {% endif %}{# if task.pr #}
+    
+    {% if task.issue %}
+    <tr>
+      <td>Issue</td>
+      <td>
+        <a href="{{ task.issue.link }}">{{ task.repository.name }}#{{ task.issue.id }}</a>
+      </td>
+    </tr>
+    {% endif %}{# if task.issue #}
+
+    <tr>
+      <td>Mentors who helped me in the task</td>
+      <td>
+        {% for item in task.mentors %}
+        <div class="mentors">
+          <a href="https://github.com/{{ item.username }}">{{ item.username }}</a>
+        </div>
+        {% endfor %}{# for item in task.mentors #}
+      </td>
+    </tr>
+  </table>
+</div>
+{% endblock %}

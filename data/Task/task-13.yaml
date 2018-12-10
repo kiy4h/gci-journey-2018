@@ -1,0 +1,11 @@
+title: "corobo: Issue #331: Add .editorconfig file"
+task_num: 13
+difficulty: low
+time_taken: "1 day, 4 hours, 30 minutes"
+repository: corobo
+pr: corobo_644
+issue: corobo_331
+mentors:
+  - jayvdb
+  - nvzard
+organization: coala

@@ -1,0 +1,3 @@
+# case matters
+username: String
+organization: Organization

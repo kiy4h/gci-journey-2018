@@ -1,0 +1,10 @@
+title: "cppclean: Issue #120: Support Windows by using `setuptools` in `setup.py` instead of `distutils`"
+task_num: 12
+difficulty: medium
+time_taken: "0 days, 12 hours, 47 minutes"
+repository: cppclean
+pr: cppclean_141
+issue: cppclean_120
+mentors:
+  - jayvdb
+organization: coala

@@ -1,0 +1,5 @@
+path: /repositories/
+template: repositories.html.jinja2
+context:
+  dynamic:
+    repository: session.query(Repository).all()
