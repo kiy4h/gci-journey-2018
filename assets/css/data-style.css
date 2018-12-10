@@ -16,7 +16,7 @@ th, td {
 
 th {
     width: 50%;
-    font-family: "Roboto Thin";
+    font-weight: 400;
 }
 
 tr:hover {

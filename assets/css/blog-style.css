@@ -1,6 +1,7 @@
 body {
     background-color: #401e68;
-    font-family: 'Roboto Thin';
+    font-family: 'Roboto';
+    font-weight: 100;
     color: #000;
     margin: 0;
 }
