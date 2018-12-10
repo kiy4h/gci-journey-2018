@@ -16,6 +16,7 @@ th, td {
 
 th {
     width: 50%;
+    font-family: "Roboto Thin";
 }
 
 tr:hover {
@@ -26,17 +27,18 @@ caption {
     padding-bottom: 20px;
 }
 
-td < .difficulty {
-    text-align: center;
-}
-
-.difficulty {
+.difficulty > div {
     padding: 5px;
     padding-left: 7px;
     padding-right: 7px;
     border-radius: 4px;
     display: inline-block;
     color: #fff;
+}
+
+.difficulty {
+    display: flex;
+    justify-content: center;
 }
 
 .mentors {

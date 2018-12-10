@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block page_title %}
-Tasks I solved
+List of tasks I solved
 {% endblock %}
 
 {% block white_bg %}
 <div class="contents">
   <table>
     <tr>
-      <th style="width: 5%">id</th>
+      <th style="width: 5%">ID</th>
       <th style="width: 30%">Title</th>
       <th style="width: 10%">Difficulty</th>
       <th style="width: 10%">Repository</th>
@@ -24,8 +24,8 @@ Tasks I solved
       <td><a href="{{ task.pk }}">{{ task.title }}</a></td>
       
       <td>
-        <div class="difficulty" style="background-color: {{ task.difficulty.color }}">
-        {{ task.difficulty.name }}
+        <div class="difficulty">
+        <div style="background-color: {{ task.difficulty.color }}">{{ task.difficulty.name }}</div>
         </div>
       </td>
       
