@@ -2,12 +2,14 @@
 title: String
 # n-th task I've finished
 task_num: Integer
+#id from the GCI website
+id: Integer
 # show the name
 difficulty: TaskDifficulty
 # time taken from when I claimed the task to when the task got approved
 # time format: "n day(s), n hour(s), 1 minute(s)"
 time_taken: String
-# Link to the repo (may not exist)
+# Link to the repository (may not exist)
 repository: Repository
 # Link to the PR (may not exist)
 pr: PullRequest

@@ -1,0 +1,11 @@
+title: "Roll your own final task"
+task_num: 20
+difficulty: medium
+time_taken: "1 day, 18 hours, 10 minutes"
+repository: coala-bears
+pr: coala-bears_2823
+issue: coala-bears_1922
+mentors:
+  - ayan-b
+organization: coala
+id: 5261958887505920

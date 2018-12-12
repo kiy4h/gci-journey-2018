@@ -2,26 +2,26 @@
 {% extends "base.html" %}
 
 {% block page_title %}
-Task Number {{ task.task_num }}
+Task: <a href="https://codein.withgoogle.com/dashboard/task-instances/{{ task.id }}">{{ task.title }}</a>
 {% endblock %}
 
 {% block white_bg %}
 <div class="contents">
   <table>
     <tr>
-      <td>Title</td>
-      <td>{{ task.title }}</td>
+      <th>Task Order</th>
+      <td>{{ task.task_num }}</td>
     </tr>
-  
+
     <tr>
-      <td>Organization</td>
+      <th>Organization</th>
       <td>
         <a href="{{ task.organization.link }}">{{ task.organization.name }}</a>
       </td>
     </tr>
 
     <tr>
-      <td>Task Difficulty</td>
+      <th>Task Difficulty</th>
       <td>
         <div class="difficulty" style="justify-content: flex-start">
         <div style="background-color: {{ task.difficulty.color }}">{{ task.difficulty.name }}</div>
@@ -30,7 +30,7 @@ Task Number {{ task.task_num }}
     </tr>
 
     <tr>
-      <td>Time Taken</td>
+      <th>Time Taken</th>
       <td>
         {{ task.time_taken }}
       </td>
@@ -38,7 +38,7 @@ Task Number {{ task.task_num }}
 
     {% if task.repository %}
     <tr>
-      <td>Repository</td>
+      <th>Repository</th>
       <td>
         <a href="{{ task.repository.link }}">{{ task.repository.name }}</a>
       </td>
@@ -47,7 +47,7 @@ Task Number {{ task.task_num }}
 
     {% if task.pr %}
     <tr>
-      <td>Pull Request</td>
+      <th>Pull Request</th>
       <td>
         <a href="{{ task.pr.link }}">{{ task.repository.name }}#{{ task.pr.id }}</a>
       </td>
@@ -56,7 +56,7 @@ Task Number {{ task.task_num }}
     
     {% if task.issue %}
     <tr>
-      <td>Issue</td>
+      <th>Issue</th>
       <td>
         <a href="{{ task.issue.link }}">{{ task.repository.name }}#{{ task.issue.id }}</a>
       </td>
@@ -64,7 +64,7 @@ Task Number {{ task.task_num }}
     {% endif %}{# if task.issue #}
 
     <tr>
-      <td>Mentors who helped me in the task</td>
+      <th>Mentors</th>
       <td>
         {% for item in task.mentors %}
         <div class="mentors">
