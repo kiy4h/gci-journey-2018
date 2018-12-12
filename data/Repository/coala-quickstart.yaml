@@ -1,3 +1,3 @@
-name: coala-quickstart
+name: "coala/coala-quickstart"
 link: "https://github.com/coala/coala-quickstart/"
 tasks: "task-05,task-07"
