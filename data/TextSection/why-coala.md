@@ -12,4 +12,5 @@ There were a lot of organizations that uses python, but coala seems to be the ea
 I scrolled down through their website. <br>
 I thought, "An organization that lint codes in different languages? Interesting."
 
-At first, I wasn't so sure about my decision, but I have no regrets choosing coala.
+At first, I wasn't so sure about my decision, but I have no regrets choosing coala.<br>
+It's an awesome organization, especially because it's all made out of pure python.
