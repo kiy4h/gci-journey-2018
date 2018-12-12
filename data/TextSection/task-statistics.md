@@ -11,7 +11,7 @@ Here's a graph showing the total of tasks I've finished from 1st November to 10t
 <div style="width: 60%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); text-align: center; display: inline-block">
 <img src="../assets/png/task-graph1.png" style="max-width:100%"></img>
 <div style="padding: 10px; font-size: 17px">
-A graph showing the number of tasks I've finished in a few days
+A graph showing the number of tasks I've finished in GCI
 </div>
 </div>
 

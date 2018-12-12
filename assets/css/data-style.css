@@ -38,12 +38,31 @@ caption {
 
 .difficulty {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.task {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 5px;
+}
+
+.task > a, .task > a:hover {
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 4px;
+    background-color: #4d4d4d;
+    color: #fff;
+    text-decoration: none;
 }
 
 .mentors {
     display: inline-block;
-    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 7px;
     padding-bottom: 7px;
 }

@@ -1,3 +1,5 @@
 # case matters
 username: String
 organization: Organization
+# tasks separated with commas (,)
+tasks: String

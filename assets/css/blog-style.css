@@ -2,12 +2,16 @@ body {
     background-color: #401e68;
     font-family: 'Roboto';
     font-weight: 100;
-    color: #000;
+    color: #441387;
     margin: 0;
 }
 
 a {
-    text-decoration: none;
+    color: #4a13afff;
+}
+
+a:visited {
+    color: #a393c0ff;
 }
 
 .topnav {

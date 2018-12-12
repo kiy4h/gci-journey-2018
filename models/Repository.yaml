@@ -1,2 +1,4 @@
 name: String
 link: String
+# tasks separated with commas (,)
+tasks: String
