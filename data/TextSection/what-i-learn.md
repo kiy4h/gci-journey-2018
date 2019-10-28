@@ -2,7 +2,7 @@
 order: 6
 ---
 
-<div style="font-size: 35px">What I learned from GCI</div>
+<div class="bigtext">What I learned from GCI</div>
 
 I've learned a bit of yaml files, how they work and how you process them.
 
