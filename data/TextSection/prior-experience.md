@@ -2,7 +2,7 @@
 order: 2
 ---
 
-<div style="font-size: 35px">Prior Experience</div>
+<div class="bigtext">Prior Experience</div>
 
 I participated GCI last year in an organization called Zulip.
 

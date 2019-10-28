@@ -2,7 +2,7 @@
 order: 8
 ---
 
-<div style="font-size: 35px">Task Statistics</div>
+<div class="bigtext">Task Statistics</div>
 
 Google Code-In was opened at 26th October. I claimed my first task a week late, at 1st November.
 
@@ -38,7 +38,7 @@ I asked <a href="https://github.com/ayan-b/">ayan-b</a> for help and I explained
 But after a few days, I realized that the problem was the bear itself. I wish I realized that sooner.<br>
 The task expired and I claimed the blog task right after that.
 
-<div style="font-size: 30px">Blog Task</div>
+<div class="bigtext">Blog Task</div>
 
 The blog task was really fun. <br>
 I felt like I can do better, but there are not much time.<br>
@@ -47,7 +47,7 @@ But I'd say, I'm proud of it.
 And I'd like thank <a href="https://github.com/ayan-b/">ayan-b</a> once again for helping me with this task.<br>
 I finished the blog task a few hours before the claiming task deadline arrived.
 
-<div style="font-size: 30px">Final Task</div>
+<div class="bigtext">Final Task</div>
 
 Then I claimed the <a href="/task-22">Roll your own task</a> task.<br>
 It took me a while to choose the final task.

@@ -2,7 +2,7 @@
 order: 4
 ---
 
-<div style="font-size: 35px">What I do when I was solving tasks</div>
+<div class="bigtext">What I do when I was solving tasks</div>
 
 I usually read the documentation(s) that involves my current task and see others' submissions if there are any.
 
